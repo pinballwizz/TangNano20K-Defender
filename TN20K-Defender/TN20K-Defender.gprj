@@ -1,0 +1,28 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/sigma_delta_dac.v" type="file.verilog" enable="1"/>
+        <File path="proms/defender_decoder_2.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/defender_decoder_3.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/defender_prog.vhd" type="file.vhdl" enable="1"/>
+        <File path="proms/defender_sound.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-Defender.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu09l_128.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cpu68.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/defender.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/defender_cmos_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/defender_sound_board.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gen_ram.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll4.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll48.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/io_ps2_keyboard.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/kbd_joystick.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/line_doubler.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/pia6821.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TN20K-Defender.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
